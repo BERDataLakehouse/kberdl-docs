@@ -1,6 +1,6 @@
 site_name: "BER Data Lakehouse"
 site_description: "Documentation for the KBase BER Data Lakehouse (K-BERDL) — a unified, AI-native data platform for DOE Biological and Environmental Research"
-site_url: ""
+site_url: "https://gazimahmud.github.io/kberdl-docs/"
 
 # Theme Configuration
 theme:
