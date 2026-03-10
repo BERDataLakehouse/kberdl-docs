@@ -47,6 +47,7 @@ nav = [
   { "K-BERDL Data Ingestion" = "kberdl-data-ingestion.md" },
   { "Architecture" = [
       { "Lakehouse Overview" = "architecture.md" },
+      { "Onboarding Guide" = "onboarding-guide.md" },
       { "Tenant Model" = "tenant-model.md" },
       { "Governance & Security" = "governance.md" }
   ]},
