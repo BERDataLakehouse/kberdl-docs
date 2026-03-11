@@ -44,8 +44,6 @@ extra_css:
 
 # Navigation
 nav:
-  - Home: index.md
-  - K-BERDL Data Ingestion: kberdl-data-ingestion.md
 
   - Architecture:
       - K-BERDL Architecture: architecture.md

@@ -43,8 +43,6 @@ toggle.icon = "material/weather-sunny"
 toggle.name = "Switch to light mode"
 
 nav = [
-  { "Home" = "index.md" },
-  { "K-BERDL Data Ingestion" = "kberdl-data-ingestion.md" },
   { "Architecture" = [
       { "K-BERDL Architecture" = "architecture.md" },
       { "Onboarding Guide" = "onboarding-guide.md" },
