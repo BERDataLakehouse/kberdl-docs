@@ -2,3 +2,5 @@ site/
 .cache/
 debug_logs.txt
 debug_status.txt
+.venv/
+.claude/
