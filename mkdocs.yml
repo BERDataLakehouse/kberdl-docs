@@ -44,8 +44,8 @@ extra_css:
 
 # Navigation
 nav:
-
-- Architecture:
+  - About K-BERDL: index.md
+  - Architecture:
       - K-BERDL Architecture: architecture.md
       - Onboarding Guide: onboarding-guide.md
       - Tenant Model: tenant-model.md
