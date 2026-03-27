@@ -44,9 +44,7 @@ extra_css:
 
 # Navigation
 nav:
-
-  - About K-BERDL: about.md
-
+  - About K-BERDL: index.md
   - Architecture:
       - K-BERDL Architecture: architecture.md
       - Onboarding Guide: onboarding-guide.md
