@@ -47,8 +47,7 @@ nav:
   - About K-BERDL: index.md
   - Architecture:
       - K-BERDL Architecture: architecture.md
-      - Onboarding Guide: onboarding-guide.md
-      - Tenant Model: tenant-model.md
+- Tenant Model: tenant-model.md
       - Governance & Security: governance.md
   - Data Platform:
       - MinIO / Data Plane: data-plane-minio.md
