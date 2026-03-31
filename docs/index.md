@@ -1,4 +1,4 @@
-# BER Data Lakehouse
+# About K-BERDL
 
 **A unified, AI-native data platform for DOE Biological and Environmental Research**
 
