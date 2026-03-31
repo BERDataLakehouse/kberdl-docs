@@ -55,5 +55,6 @@ nav = [
       { "Microbial Discovery Forge" = "microbial-discovery-forge.md" },
       { "Ingestion Guide" = "data-ingestion-guide.md" }
   ]},
+  { "Onboarding Guide" = "onboarding.md" },
   { "Roadmap" = "roadmap.md" }
 ]
