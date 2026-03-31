@@ -44,9 +44,10 @@ toggle.name = "Switch to light mode"
 
 nav = [
   { "About K-BERDL" = "index.md" },
+  { "Onboarding Guide" = "onboarding.md" },
   { "Architecture" = [
       { "K-BERDL Architecture" = "architecture.md" },
-{ "Tenant Model" = "tenant-model.md" },
+      { "Tenant Model" = "tenant-model.md" },
       { "Governance & Security" = "governance.md" }
   ]},
   { "Data Platform" = [
@@ -54,6 +55,5 @@ nav = [
       { "Microbial Discovery Forge" = "microbial-discovery-forge.md" },
       { "Ingestion Guide" = "data-ingestion-guide.md" }
   ]},
-  { "Onboarding Guide" = "onboarding.md" },
   { "Roadmap" = "roadmap.md" }
 ]
