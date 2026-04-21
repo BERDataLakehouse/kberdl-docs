@@ -7,33 +7,24 @@
         <loc>https://docs.lakehouse.kbase.us/architecture/</loc>
       </url>
       <url>
-        <loc>https://docs.lakehouse.kbase.us/data-ingestion-guide/</loc>
-      </url>
-      <url>
-        <loc>https://docs.lakehouse.kbase.us/data-plane-minio/</loc>
+        <loc>https://docs.lakehouse.kbase.us/tenant-model/</loc>
       </url>
       <url>
         <loc>https://docs.lakehouse.kbase.us/governance/</loc>
       </url>
       <url>
-        <loc>https://docs.lakehouse.kbase.us/index_bak/</loc>
+        <loc>https://docs.lakehouse.kbase.us/onboarding/</loc>
       </url>
       <url>
-        <loc>https://docs.lakehouse.kbase.us/kberdl-data-ingestion/</loc>
-      </url>
-      <url>
-        <loc>https://docs.lakehouse.kbase.us/leadership_overview/</loc>
+        <loc>https://docs.lakehouse.kbase.us/data-plane-minio/</loc>
       </url>
       <url>
         <loc>https://docs.lakehouse.kbase.us/microbial-discovery-forge/</loc>
       </url>
       <url>
-        <loc>https://docs.lakehouse.kbase.us/onboarding/</loc>
+        <loc>https://docs.lakehouse.kbase.us/data-ingestion-guide/</loc>
       </url>
       <url>
         <loc>https://docs.lakehouse.kbase.us/roadmap/</loc>
-      </url>
-      <url>
-        <loc>https://docs.lakehouse.kbase.us/tenant-model/</loc>
       </url>
 </urlset>
