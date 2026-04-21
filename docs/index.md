@@ -1,4 +1,4 @@
-# About K-BERDL
+# About KBase Lakehouse
 
 **A unified, AI-native data platform for DOE Biological and Environmental Research**
 
