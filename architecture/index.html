@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="../assets/favicon.png">
-      <meta name="generator" content="zensical-0.0.30">
+      <meta name="generator" content="zensical-0.0.34">
     
     
       
@@ -34,7 +34,7 @@
       
         
       
-      <link rel="stylesheet" href="../assets/stylesheets/modern/main.3b031116.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.53a7feaf.min.css">
       
         
           
@@ -53,7 +53,7 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo:300,300i,400,400i,500,500i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo:300,300i,400,400i,500,500i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
         <style>:root{--md-text-font:"Archivo";--md-code-font:"Roboto Mono"}</style>
       
     
@@ -250,6 +250,30 @@
   
     <li class="md-nav__item md-nav__item--active">
       
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    K-BERDL Architecture
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="././" class="md-nav__link md-nav__link--active">
         
   
@@ -266,6 +290,276 @@
   
 
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-abstracted-portable-compute-and-data-plane" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Abstracted, Portable Compute and Data Plane
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Abstracted, Portable Compute and Data Plane">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decoupled-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decoupled Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-agnostic-compute" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage-Agnostic Compute
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#portable-compute-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Portable Compute Environments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-multi-tenancy-with-centralized-catalog-and-democratized-data-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Multi-Tenancy with Centralized Catalog and Democratized Data Governance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Multi-Tenancy with Centralized Catalog and Democratized Data Governance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flexible-multi-tenancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flexible Multi-Tenancy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tenant-autonomy-and-ownership" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tenant Autonomy and Ownership
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unified-ber-wide-data-catalog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unified BER-Wide Data Catalog
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-supports-data-sharing-and-collaboration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Supports Data Sharing and Collaboration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Supports Data Sharing and Collaboration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cross-domain-data-exploration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cross-Domain Data Exploration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fine-grained-access-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fine-Grained Access Controls
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-flexible-data-ingestion-and-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Flexible Data Ingestion and Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Flexible Data Ingestion and Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hybrid-ingestion-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hybrid Ingestion Modes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scalable-data-transfer-via-kbase-dts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scalable Data Transfer via KBase DTS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integration-with-external-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with External Systems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-data-lineage-and-provenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Data Lineage and Provenance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Data Lineage and Provenance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#end-to-end-lifecycle-tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        End-to-End Lifecycle Tracking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visibility-metadata-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visibility &amp; Metadata Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-reproducibility-and-scientific-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trust, Reproducibility, and Scientific Integrity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -552,10 +846,17 @@
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   
-                    <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-                    <div class="md-sidebar-button__wrapper">
-                      <label class="md-sidebar-button" for="__toc"></label>
-                    </div>
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
                   
                   <div class="md-sidebar__inner">
                     
@@ -1038,7 +1339,7 @@ The following sections describe the core architectural principles and how they s
       <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["navigation.instant","navigation.sections","navigation.tracking","content.code.copy","content.tabs.link","search.highlight","search.suggest","header.autohide"],"search":"../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
     
     
-      <script src="../assets/javascripts/bundle.66be65ca.min.js"></script>
+      <script src="../assets/javascripts/bundle.9f55f5b1.min.js"></script>
       
     
   </body>
