@@ -17,7 +17,7 @@ theme:
     - search.suggest
     - header.autohide
 
-  logo: assets/logo.svg
+  logo: assets/kberdl-logo.png
   favicon: assets/favicon.png
 
   font:
