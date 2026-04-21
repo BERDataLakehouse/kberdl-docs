@@ -1,5 +1,5 @@
 site_name = "BER Data Lakehouse"
-site_url = "https://berdatalakehouse.github.io/kberdl-docs/"
+site_url = "https://docs.lakehouse.kbase.us/"
 site_description = "Documentation for the KBase BER Data Lakehouse (K-BERDL) — a unified, AI-native data platform for DOE Biological and Environmental Research"
 extra_css = [
   "stylesheets/extra.css",
@@ -43,13 +43,13 @@ toggle.icon = "material/weather-sunny"
 toggle.name = "Switch to light mode"
 
 nav = [
-  { "About K-BERDL" = "index.md" },
-  { "Onboarding Guide" = "onboarding.md" },
+  { "About KBase Lakehouse" = "index.md" },
   { "Architecture" = [
       { "K-BERDL Architecture" = "architecture.md" },
       { "Tenant Model" = "tenant-model.md" },
       { "Governance & Security" = "governance.md" }
   ]},
+  { "Onboarding Guide" = "onboarding.md" },
   { "Data Platform" = [
       { "MinIO / Data Plane" = "data-plane-minio.md" },
       { "Microbial Discovery Forge" = "microbial-discovery-forge.md" },
