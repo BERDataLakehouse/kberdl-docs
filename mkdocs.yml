@@ -47,6 +47,7 @@ nav:
   - About KBase Lakehouse: index.md
   - Architecture: architecture.md
   - Onboarding Guide: onboarding.md
+  - Data Dictionary: data-dictionary.md
   - Tenant Model: tenant-model.md
   - Governance & Security: governance.md
   - MinIO / Data Plane: data-plane-minio.md
