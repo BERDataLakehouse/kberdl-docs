@@ -1,38 +1,83 @@
 # Data Dictionary
 
-This page lists all registered tenants in the KBase BER Data Lakehouse (K-BERDL), along with their descriptions, websites, and available databases.
+A registry of all tenants and datasets in the KBase BER Data Lakehouse (K-BERDL).
+
+<div class="grid cards" markdown>
+
+-   :material-account-group:{ .lg .middle } **23 Tenants**
+
+    ---
+
+    Research programs and labs onboarded to K-BERDL
+
+-   :material-database:{ .lg .middle } **63 Databases**
+
+    ---
+
+    Datasets available across all tenants
+
+</div>
 
 ---
 
-### AI ALE
+## Tenant Overview
 
+| Tenant | Organization | Databases |
+|---|---|:---:|
+| [AI ALE](#ai-ale) | ANL | 1 |
+| [Arkin Lab](#arkin-lab) | UC Berkeley | 1 |
+| [BERVO data](#bervo-data) | LBNL | 3 |
+| [BRaVE BREAD](#brave-bread) | ANL | 0 |
+| [ENIGMA](#enigma) | LBNL (lead) | 2 |
+| [ESE](#ese) | LBNL OPAL | 1 |
+| [Global Users](#global-users) | — | 18 |
+| [ideas](#ideas) | — | 1 |
+| [KBase](#kbase) | LBNL (lead) | 9 |
+| [KBase Knowledge Engine Science](#kbase-knowledge-engine-science) | LBNL | 10 |
+| [LAMBDA](#lambda) | LBNL (Lead) | 0 |
+| [Microbial Discovery Forge](#microbial-discovery-forge) | LBNL | 0 |
+| [Microbial Ecosystems Lab](#microbial-ecosystems-lab) | Colorado State University | 0 |
+| [National Energy Technology Laboratory](#national-energy-technology-laboratory) | NETL | 1 |
+| [National Microbiome Data Collaborative](#national-microbiome-data-collaborative) | LBNL | 4 |
+| [OPAL](#opal) | LBNL, ANL, ORNL, PNNL | 0 |
+| [Phage Foundry](#phage-foundry) | LBNL | 7 |
+| [Planet Microbe](#planet-microbe) | — | 2 |
+| [Plant Microbe Interfaces](#plant-microbe-interfaces) | PMI | 0 |
+| [Soil Microbiome Science](#soil-microbiome-science) | PNNL | 0 |
+| [PROTECT](#protect) | UC Berkeley | 2 |
+| [Reference Data](#reference-data) | — | 0 |
+| [United States Geological Survey](#united-states-geological-survey) | USGS | 1 |
+
+---
+
+## Tenant Details
+
+### AI ALE
 **Organization:** ANL
 
 Database for AI-driven adaptive lab evolution of ADP1. This database holds observed mutations crossed with conditions, passages, and strains where the mutations are observed. Key mutations are linked to specific phenotypes like growth with a novel DAHP biosynthesis enzyme and growth on a range of methoxylated aromatic compounds.
 
-??? info "Databases (1)"
+??? example "Databases (1)"
     - `aiale_dataset1`
 
 ---
 
 ### Arkin Lab
-
-**Organization:** UC Berkeley | **Website:** [arkinlab.bio](https://arkinlab.bio/)
+**Organization:** UC Berkeley &nbsp;|&nbsp; :material-web: [arkinlab.bio](https://arkinlab.bio/)
 
 Leverages quantitative measurements, precision genetics, and model-driven experimentation to predict, control, and design biological function in the context of these webs.
 
-??? info "Databases (1)"
+??? example "Databases (1)"
     - `arkinlab_microbeatlas`
 
 ---
 
 ### BERVO data
-
-**Organization:** LBNL | **Website:** [github.com/bioepic-data/bervo](https://github.com/bioepic-data/bervo)
+**Organization:** LBNL &nbsp;|&nbsp; :material-web: [github.com/bioepic-data/bervo](https://github.com/bioepic-data/bervo)
 
 BioEPIC data described using the Biological and Environmental Research Variable Ontology.
 
-??? info "Databases (3)"
+??? example "Databases (3)"
     - `bervodata_chess`
     - `bervodata_fao_soils`
     - `bervodata_hwsd2`
@@ -40,46 +85,40 @@ BioEPIC data described using the Biological and Environmental Research Variable 
 ---
 
 ### BRaVE BREAD
-
 **Organization:** ANL
 
 Bioenergy crop–pathogen interactions, including sorghum anthracnose (*Colletotrichum sublineola*), to support predictive modeling of pathogenicity and biocontrol.
 
-??? info "Databases (0)"
+??? example "Databases (0)"
     No databases registered yet.
 
 ---
 
 ### ENIGMA
-
-**Organization:** LBNL (lead) | **Website:** [enigma.lbl.gov](https://enigma.lbl.gov/)
+**Organization:** LBNL (lead) &nbsp;|&nbsp; :material-web: [enigma.lbl.gov](https://enigma.lbl.gov/)
 
 Create predictive models of the impacts of microbial communities on critical processes within ecosystems.
 
-??? info "Databases (2)"
+??? example "Databases (2)"
     - `enigma_coral`
     - `enigma_genome_depot_enigma`
 
 ---
 
 ### ESE
-
-**Organization:** LBNL OPAL | **Website:** [opal-doe.org](https://opal-doe.org/)
+**Organization:** LBNL OPAL &nbsp;|&nbsp; :material-web: [opal-doe.org](https://opal-doe.org/)
 
 Developing a distributed platform that will help map the molecular determinants of microbial functions back to genomes, accelerating scalable predictive biodesign approaches.
 
-??? info "Databases (1)"
+??? example "Databases (1)"
     - `ese_ganymede`
 
 ---
 
 ### Global Users
-
-**Organization:** None
-
 Shared datasets and reference genomes accessible to all K-BERDL users.
 
-??? info "Databases (18)"
+??? example "Databases (18)"
     - `globalusers_aisynbio_test_1`
     - `globalusers_carbon_source_phenotypes`
     - `globalusers_demo_shared`
@@ -103,20 +142,17 @@ Shared datasets and reference genomes accessible to all K-BERDL users.
 
 ### ideas
 
-**Organization:** None
-
-??? info "Databases (1)"
+??? example "Databases (1)"
     - `ideas_dataset1`
 
 ---
 
 ### KBase
-
-**Organization:** LBNL (lead) | **Website:** [kbase.us](https://www.kbase.us/)
+**Organization:** LBNL (lead) &nbsp;|&nbsp; :material-web: [kbase.us](https://www.kbase.us/)
 
 Community-driven research platform for systems biology.
 
-??? info "Databases (9)"
+??? example "Databases (9)"
     - `kbase_genomes`
     - `kbase_ke_pangenome`
     - `kbase_msd_biochemistry`
@@ -130,12 +166,11 @@ Community-driven research platform for systems biology.
 ---
 
 ### KBase Knowledge Engine Science
-
 **Organization:** LBNL
 
 Provides experimental phenotypes, protein structures, and microbial ecology data for linking genotype to function.
 
-??? info "Databases (10)"
+??? example "Databases (10)"
     - `kescience_alphafold`
     - `kescience_bacdive`
     - `kescience_fitnessbrowser`
@@ -150,56 +185,51 @@ Provides experimental phenotypes, protein structures, and microbial ecology data
 ---
 
 ### LAMBDA
-
-**Organization:** LBNL (Lead) | **Website:** [lambda-doe.org](https://lambda-doe.org/)
+**Organization:** LBNL (Lead) &nbsp;|&nbsp; :material-web: [lambda-doe.org](https://lambda-doe.org/)
 
 By unifying structural biology data across BER-supported imaging resources, LAMBDA will transform how researchers discover, integrate, and analyze multimodal datasets. This will accelerate AI-driven insights into protein conformations, the relationship between genes and their expression, biological function and dynamics, and cells and their environment.
 
-??? info "Databases (0)"
+??? example "Databases (0)"
     No databases registered yet.
 
 ---
 
 ### Microbial Discovery Forge
-
 **Organization:** LBNL
 
 AI co-scientist and research observatory for K-BERDL-scale microbial discovery — powered by reusable skills, shared memory, and scalable data.
 
-??? info "Databases (0)"
+??? example "Databases (0)"
     No databases registered yet.
 
 ---
 
 ### Microbial Ecosystems Lab
-
-**Organization:** Colorado State University | **Website:** [microbialecosystemslab.com](https://microbialecosystemslab.com/)
+**Organization:** Colorado State University &nbsp;|&nbsp; :material-web: [microbialecosystemslab.com](https://microbialecosystemslab.com/)
 
 Use microbiome knowledge to better manage ecosystem function.
 
-??? info "Databases (0)"
+??? example "Databases (0)"
     No databases registered yet.
 
 ---
 
 ### National Energy Technology Laboratory
-
-**Organization:** NETL | **Website:** [netl.doe.gov](https://netl.doe.gov/)
+**Organization:** NETL &nbsp;|&nbsp; :material-web: [netl.doe.gov](https://netl.doe.gov/)
 
 Currently contains the NETL Produced Water DNA database.
 
-??? info "Databases (1)"
+??? example "Databases (1)"
     - `netl_pw_dna`
 
 ---
 
 ### National Microbiome Data Collaborative
-
-**Organization:** LBNL | **Website:** [microbiomedata.org](https://microbiomedata.org/)
+**Organization:** LBNL &nbsp;|&nbsp; :material-web: [microbiomedata.org](https://microbiomedata.org/)
 
 Enabling microbiome science by connecting data, people, and ideas.
 
-??? info "Databases (4)"
+??? example "Databases (4)"
     - `nmdc_arkin`
     - `nmdc_flattened_biosamples`
     - `nmdc_func_annot_freshwater_rivers`
@@ -208,23 +238,21 @@ Enabling microbiome science by connecting data, people, and ideas.
 ---
 
 ### OPAL
-
-**Organization:** LBNL, ANL, ORNL, and PNNL | **Website:** [opal-doe.org](https://opal-doe.org/)
+**Organization:** LBNL, ANL, ORNL, and PNNL &nbsp;|&nbsp; :material-web: [opal-doe.org](https://opal-doe.org/)
 
 The Orchestrated Platform for Autonomous Laboratories (OPAL) is a multi-laboratory project led by the U.S. Department of Energy (DOE) to turn biological discovery into a self-driving process. By combining AI, robotics, and automated experimentation, OPAL seeks to create a network of autonomous laboratories that can learn, adapt, and accelerate breakthroughs across biology, biotechnology, and energy science.
 
-??? info "Databases (0)"
+??? example "Databases (0)"
     No databases registered yet.
 
 ---
 
 ### Phage Foundry
-
-**Organization:** LBNL | **Website:** [phagefoundry.org](https://phagefoundry.org/)
+**Organization:** LBNL &nbsp;|&nbsp; :material-web: [phagefoundry.org](https://phagefoundry.org/)
 
 Interdisciplinary capability building a high-throughput platform for rapid design and development of countermeasures to combat emerging pathogens.
 
-??? info "Databases (7)"
+??? example "Databases (7)"
     - `phagefoundry_acinetobacter_genome_browser`
     - `phagefoundry_ecoliphages_genomedepot`
     - `phagefoundry_ecoliphagesgenomedepot`
@@ -236,67 +264,59 @@ Interdisciplinary capability building a high-throughput platform for rapid desig
 ---
 
 ### Planet Microbe
-
-**Organization:** None | **Website:** [planetmicrobe.org](https://www.planetmicrobe.org/)
+**Organization:** — &nbsp;|&nbsp; :material-web: [planetmicrobe.org](https://www.planetmicrobe.org/)
 
 Enabling the discovery and integration of oceanographicomics, environmental and physiochemical data layers.
 
-??? info "Databases (2)"
+??? example "Databases (2)"
     - `planetmicrobe_planetmicrobe`
     - `planetmicrobe_planetmicrobe_raw`
 
 ---
 
 ### Plant Microbe Interfaces
-
-**Organization:** PMI | **Website:** [pmiweb.ornl.gov](https://pmiweb.ornl.gov/)
+**Organization:** PMI &nbsp;|&nbsp; :material-web: [pmiweb.ornl.gov](https://pmiweb.ornl.gov/)
 
 Focuses on revealing the genomic bases underpinning the selection of symbiotic plant-microbe partnerships, assessing how the physical and chemical environment structures the host plant's microbiome, and determining how microbial community composition and host genetics combine to respond to environmental challenges.
 
-??? info "Databases (0)"
+??? example "Databases (0)"
     No databases registered yet.
 
 ---
 
 ### Soil Microbiome Science
-
-**Organization:** PNNL | **Website:** [pnnl.gov/projects/soil-microbiome](https://www.pnnl.gov/projects/soil-microbiome)
+**Organization:** PNNL &nbsp;|&nbsp; :material-web: [pnnl.gov/projects/soil-microbiome](https://www.pnnl.gov/projects/soil-microbiome)
 
 Advancing our understanding of how soil microbial communities respond to—and affect—changing environmental conditions.
 
-??? info "Databases (0)"
+??? example "Databases (0)"
     No databases registered yet.
 
 ---
 
 ### PROTECT
-
 **Organization:** UC Berkeley
 
 Pro/Prebiotic Regulation for Optimized Treatment and Eradication of Clinical Threats (PROTECT) is pioneering microbiome engineering to design probiotic communities that prevent lung infections by pathogens.
 
-??? info "Databases (2)"
+??? example "Databases (2)"
     - `protect_genomedepot`
     - `protect_integration`
 
 ---
 
 ### Reference Data
-
-**Organization:** None
-
 Collection of reference data that are available to all users and regularly updated by the KBase team.
 
-??? info "Databases (0)"
+??? example "Databases (0)"
     No databases registered yet.
 
 ---
 
 ### United States Geological Survey
-
-**Organization:** USGS | **Website:** [usgs.gov](https://www.usgs.gov/)
+**Organization:** USGS &nbsp;|&nbsp; :material-web: [usgs.gov](https://www.usgs.gov/)
 
 Sharing produced water and river geochemistry data for cross-tenant analysis.
 
-??? info "Databases (1)"
+??? example "Databases (1)"
     - `usgs_produced_waters`
