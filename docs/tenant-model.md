@@ -1,6 +1,6 @@
 # Multi-Tenant Model
 
-The KBase Data Lakehouse (K-BERDL) utilizes a robust multi-tenant architecture designed to support diverse DOE BER programs while maintaining strict data isolation and security where needed.
+The KBase Lakehouse utilizes a robust multi-tenant architecture designed to support diverse DOE BER programs while maintaining strict data isolation and security where needed.
 
 ## Tenant Architecture
 

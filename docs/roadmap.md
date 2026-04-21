@@ -1,6 +1,6 @@
 # Platform Roadmap
 
-High-level timeline for the development and expansion of the KBase Data Lakehouse (K-BERDL).
+High-level timeline for the development and expansion of the KBase Lakehouse.
 
 ## Q1 2025: Foundation
 *   **Launch**: Initial production release of the Lakehouse Core.
