@@ -44,7 +44,7 @@ extra_css:
 
 # Navigation
 nav:
-  - About K-BERDL: index.md
+  - About KBase Lakehouse: index.md
   - Onboarding Guide: onboarding.md
   - Architecture:
       - K-BERDL Architecture: architecture.md
