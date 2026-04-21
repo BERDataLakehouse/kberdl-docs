@@ -1,6 +1,6 @@
 # KBase BER Data Lakehouse Documentation
 
-**Live site: https://berdatalakehouse.github.io/kberdl-docs/**
+**Live site: https://docs.lakehouse.kbase.us/**
 
 This repository contains the source documentation for the **KBase BER Data Lakehouse (K-BERDL)** — a unified, AI-native data platform for DOE Biological and Environmental Research.
 
