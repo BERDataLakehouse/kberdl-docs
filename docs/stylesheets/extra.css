@@ -65,3 +65,93 @@
 .md-typeset .md-button--primary:hover {
   background-color: #0e6299;
 }
+
+/* Tenant cards */
+.tenant-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1.2rem;
+  background: var(--md-default-bg-color);
+  border-top: 4px solid #127db3;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.tenant-card:hover {
+  box-shadow: 0 4px 14px rgba(18, 125, 179, 0.15);
+}
+
+.tenant-card h3 {
+  margin: 0 0 0.3rem 0 !important;
+  font-size: 1.1rem !important;
+  color: #127db3 !important;
+  border: none !important;
+}
+
+.tenant-meta {
+  font-size: 0.82rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.tenant-org {
+  background: #e8f4fb;
+  color: #0e6299;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.78rem;
+}
+
+[data-md-color-scheme="slate"] .tenant-org {
+  background: #1a3a4a;
+  color: #4aa3e8;
+}
+
+.tenant-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--md-default-fg-color);
+  margin-bottom: 0.8rem;
+}
+
+.tenant-website {
+  font-size: 0.85rem;
+}
+
+.tenant-card .md-typeset details {
+  margin-top: 0.8rem;
+}
+
+/* Stats grid */
+.stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, #127db3, #0e6299);
+  color: white;
+  border-radius: 8px;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.stat-box .stat-number {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stat-box .stat-label {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin-top: 0.25rem;
+}

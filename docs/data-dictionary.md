@@ -1,122 +1,81 @@
-# Data Dictionary
+# Lakehouse Tenants
 
-A registry of all tenants and datasets in the KBase BER Data Lakehouse (K-BERDL).
+A registry of all research programs and datasets onboarded to the KBase BER Data Lakehouse.
 
-<div class="grid cards" markdown>
-
--   :material-account-group:{ .lg .middle } **23 Tenants**
-
-    ---
-
-    Research programs and labs onboarded to K-BERDL
-
--   :material-database:{ .lg .middle } **63 Databases**
-
-    ---
-
-    Datasets available across all tenants
-
+<div class="stat-grid" markdown>
+<div class="stat-box" markdown>
+<div class="stat-number">23</div>
+<div class="stat-label">Registered Tenants</div>
+</div>
+<div class="stat-box" markdown>
+<div class="stat-number">63</div>
+<div class="stat-label">Total Databases</div>
+</div>
 </div>
 
 ---
 
-## Tenant Overview
-
-| Tenant | Organization | Databases |
-|---|---|:---:|
-| [AI ALE](#ai-ale) | ANL | 1 |
-| [Arkin Lab](#arkin-lab) | UC Berkeley | 1 |
-| [BERVO data](#bervo-data) | LBNL | 3 |
-| [BRaVE BREAD](#brave-bread) | ANL | 0 |
-| [ENIGMA](#enigma) | LBNL (lead) | 2 |
-| [ESE](#ese) | LBNL OPAL | 1 |
-| [Global Users](#global-users) | — | 18 |
-| [ideas](#ideas) | — | 1 |
-| [KBase](#kbase) | LBNL (lead) | 9 |
-| [KBase Knowledge Engine Science](#kbase-knowledge-engine-science) | LBNL | 10 |
-| [LAMBDA](#lambda) | LBNL (Lead) | 0 |
-| [Microbial Discovery Forge](#microbial-discovery-forge) | LBNL | 0 |
-| [Microbial Ecosystems Lab](#microbial-ecosystems-lab) | Colorado State University | 0 |
-| [National Energy Technology Laboratory](#national-energy-technology-laboratory) | NETL | 1 |
-| [National Microbiome Data Collaborative](#national-microbiome-data-collaborative) | LBNL | 4 |
-| [OPAL](#opal) | LBNL, ANL, ORNL, PNNL | 0 |
-| [Phage Foundry](#phage-foundry) | LBNL | 7 |
-| [Planet Microbe](#planet-microbe) | — | 2 |
-| [Plant Microbe Interfaces](#plant-microbe-interfaces) | PMI | 0 |
-| [Soil Microbiome Science](#soil-microbiome-science) | PNNL | 0 |
-| [PROTECT](#protect) | UC Berkeley | 2 |
-| [Reference Data](#reference-data) | — | 0 |
-| [United States Geological Survey](#united-states-geological-survey) | USGS | 1 |
-
----
-
-## Tenant Details
-
+<div class="tenant-card" markdown>
 ### AI ALE
-**Organization:** ANL
-
-Database for AI-driven adaptive lab evolution of ADP1. This database holds observed mutations crossed with conditions, passages, and strains where the mutations are observed. Key mutations are linked to specific phenotypes like growth with a novel DAHP biosynthesis enzyme and growth on a range of methoxylated aromatic compounds.
+<div class="tenant-meta"><span class="tenant-org">ANL</span></div>
+<div class="tenant-description">Database for AI-driven adaptive lab evolution of ADP1. Holds observed mutations crossed with conditions, passages, and strains. Key mutations are linked to specific phenotypes like growth with a novel DAHP biosynthesis enzyme and growth on a range of methoxylated aromatic compounds.</div>
 
 ??? example "Databases (1)"
     - `aiale_dataset1`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Arkin Lab
-**Organization:** UC Berkeley &nbsp;|&nbsp; :material-web: [arkinlab.bio](https://arkinlab.bio/)
-
-Leverages quantitative measurements, precision genetics, and model-driven experimentation to predict, control, and design biological function in the context of these webs.
+<div class="tenant-meta"><span class="tenant-org">UC Berkeley</span> <a class="tenant-website" href="https://arkinlab.bio/" target="_blank">:material-web: arkinlab.bio</a></div>
+<div class="tenant-description">Leverages quantitative measurements, precision genetics, and model-driven experimentation to predict, control, and design biological function in the context of these webs.</div>
 
 ??? example "Databases (1)"
     - `arkinlab_microbeatlas`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### BERVO data
-**Organization:** LBNL &nbsp;|&nbsp; :material-web: [github.com/bioepic-data/bervo](https://github.com/bioepic-data/bervo)
-
-BioEPIC data described using the Biological and Environmental Research Variable Ontology.
+<div class="tenant-meta"><span class="tenant-org">LBNL</span> <a class="tenant-website" href="https://github.com/bioepic-data/bervo" target="_blank">:material-web: github.com/bioepic-data/bervo</a></div>
+<div class="tenant-description">BioEPIC data described using the Biological and Environmental Research Variable Ontology.</div>
 
 ??? example "Databases (3)"
     - `bervodata_chess`
     - `bervodata_fao_soils`
     - `bervodata_hwsd2`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### BRaVE BREAD
-**Organization:** ANL
-
-Bioenergy crop–pathogen interactions, including sorghum anthracnose (*Colletotrichum sublineola*), to support predictive modeling of pathogenicity and biocontrol.
+<div class="tenant-meta"><span class="tenant-org">ANL</span></div>
+<div class="tenant-description">Bioenergy crop–pathogen interactions, including sorghum anthracnose (<em>Colletotrichum sublineola</em>), to support predictive modeling of pathogenicity and biocontrol.</div>
 
 ??? example "Databases (0)"
     No databases registered yet.
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### ENIGMA
-**Organization:** LBNL (lead) &nbsp;|&nbsp; :material-web: [enigma.lbl.gov](https://enigma.lbl.gov/)
-
-Create predictive models of the impacts of microbial communities on critical processes within ecosystems.
+<div class="tenant-meta"><span class="tenant-org">LBNL (lead)</span> <a class="tenant-website" href="https://enigma.lbl.gov/" target="_blank">:material-web: enigma.lbl.gov</a></div>
+<div class="tenant-description">Create predictive models of the impacts of microbial communities on critical processes within ecosystems.</div>
 
 ??? example "Databases (2)"
     - `enigma_coral`
     - `enigma_genome_depot_enigma`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### ESE
-**Organization:** LBNL OPAL &nbsp;|&nbsp; :material-web: [opal-doe.org](https://opal-doe.org/)
-
-Developing a distributed platform that will help map the molecular determinants of microbial functions back to genomes, accelerating scalable predictive biodesign approaches.
+<div class="tenant-meta"><span class="tenant-org">LBNL OPAL</span> <a class="tenant-website" href="https://opal-doe.org/" target="_blank">:material-web: opal-doe.org</a></div>
+<div class="tenant-description">Developing a distributed platform that will help map the molecular determinants of microbial functions back to genomes, accelerating scalable predictive biodesign approaches.</div>
 
 ??? example "Databases (1)"
     - `ese_ganymede`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Global Users
-Shared datasets and reference genomes accessible to all K-BERDL users.
+<div class="tenant-meta"><span class="tenant-org">Shared</span></div>
+<div class="tenant-description">Shared datasets and reference genomes accessible to all K-BERDL users.</div>
 
 ??? example "Databases (18)"
     - `globalusers_aisynbio_test_1`
@@ -137,20 +96,20 @@ Shared datasets and reference genomes accessible to all K-BERDL users.
     - `globalusers_ontology_source_2`
     - `globalusers_phenotype_ontology_1`
     - `globalusers_phenotype_parquet_1`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### ideas
+<div class="tenant-meta"><span class="tenant-org">—</span></div>
 
 ??? example "Databases (1)"
     - `ideas_dataset1`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### KBase
-**Organization:** LBNL (lead) &nbsp;|&nbsp; :material-web: [kbase.us](https://www.kbase.us/)
-
-Community-driven research platform for systems biology.
+<div class="tenant-meta"><span class="tenant-org">LBNL (lead)</span> <a class="tenant-website" href="https://www.kbase.us/" target="_blank">:material-web: kbase.us</a></div>
+<div class="tenant-description">Community-driven research platform for systems biology.</div>
 
 ??? example "Databases (9)"
     - `kbase_genomes`
@@ -162,13 +121,12 @@ Community-driven research platform for systems biology.
     - `kbase_uniref100`
     - `kbase_uniref50`
     - `kbase_uniref90`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### KBase Knowledge Engine Science
-**Organization:** LBNL
-
-Provides experimental phenotypes, protein structures, and microbial ecology data for linking genotype to function.
+<div class="tenant-meta"><span class="tenant-org">LBNL</span></div>
+<div class="tenant-description">Provides experimental phenotypes, protein structures, and microbial ecology data for linking genotype to function.</div>
 
 ??? example "Databases (10)"
     - `kescience_alphafold`
@@ -181,76 +139,69 @@ Provides experimental phenotypes, protein structures, and microbial ecology data
     - `kescience_pubmed`
     - `kescience_test_mika`
     - `kescience_webofmicrobes`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### LAMBDA
-**Organization:** LBNL (Lead) &nbsp;|&nbsp; :material-web: [lambda-doe.org](https://lambda-doe.org/)
-
-By unifying structural biology data across BER-supported imaging resources, LAMBDA will transform how researchers discover, integrate, and analyze multimodal datasets. This will accelerate AI-driven insights into protein conformations, the relationship between genes and their expression, biological function and dynamics, and cells and their environment.
+<div class="tenant-meta"><span class="tenant-org">LBNL (Lead)</span> <a class="tenant-website" href="https://lambda-doe.org/" target="_blank">:material-web: lambda-doe.org</a></div>
+<div class="tenant-description">By unifying structural biology data across BER-supported imaging resources, LAMBDA will transform how researchers discover, integrate, and analyze multimodal datasets. This will accelerate AI-driven insights into protein conformations, the relationship between genes and their expression, biological function and dynamics, and cells and their environment.</div>
 
 ??? example "Databases (0)"
     No databases registered yet.
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Microbial Discovery Forge
-**Organization:** LBNL
-
-AI co-scientist and research observatory for K-BERDL-scale microbial discovery — powered by reusable skills, shared memory, and scalable data.
+<div class="tenant-meta"><span class="tenant-org">LBNL</span></div>
+<div class="tenant-description">AI co-scientist and research observatory for K-BERDL-scale microbial discovery — powered by reusable skills, shared memory, and scalable data.</div>
 
 ??? example "Databases (0)"
     No databases registered yet.
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Microbial Ecosystems Lab
-**Organization:** Colorado State University &nbsp;|&nbsp; :material-web: [microbialecosystemslab.com](https://microbialecosystemslab.com/)
-
-Use microbiome knowledge to better manage ecosystem function.
+<div class="tenant-meta"><span class="tenant-org">Colorado State University</span> <a class="tenant-website" href="https://microbialecosystemslab.com/" target="_blank">:material-web: microbialecosystemslab.com</a></div>
+<div class="tenant-description">Use microbiome knowledge to better manage ecosystem function.</div>
 
 ??? example "Databases (0)"
     No databases registered yet.
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### National Energy Technology Laboratory
-**Organization:** NETL &nbsp;|&nbsp; :material-web: [netl.doe.gov](https://netl.doe.gov/)
-
-Currently contains the NETL Produced Water DNA database.
+<div class="tenant-meta"><span class="tenant-org">NETL</span> <a class="tenant-website" href="https://netl.doe.gov/" target="_blank">:material-web: netl.doe.gov</a></div>
+<div class="tenant-description">Currently contains the NETL Produced Water DNA database.</div>
 
 ??? example "Databases (1)"
     - `netl_pw_dna`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### National Microbiome Data Collaborative
-**Organization:** LBNL &nbsp;|&nbsp; :material-web: [microbiomedata.org](https://microbiomedata.org/)
-
-Enabling microbiome science by connecting data, people, and ideas.
+<div class="tenant-meta"><span class="tenant-org">LBNL</span> <a class="tenant-website" href="https://microbiomedata.org/" target="_blank">:material-web: microbiomedata.org</a></div>
+<div class="tenant-description">Enabling microbiome science by connecting data, people, and ideas.</div>
 
 ??? example "Databases (4)"
     - `nmdc_arkin`
     - `nmdc_flattened_biosamples`
     - `nmdc_func_annot_freshwater_rivers`
     - `nmdc_ncbi_biosamples`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### OPAL
-**Organization:** LBNL, ANL, ORNL, and PNNL &nbsp;|&nbsp; :material-web: [opal-doe.org](https://opal-doe.org/)
-
-The Orchestrated Platform for Autonomous Laboratories (OPAL) is a multi-laboratory project led by the U.S. Department of Energy (DOE) to turn biological discovery into a self-driving process. By combining AI, robotics, and automated experimentation, OPAL seeks to create a network of autonomous laboratories that can learn, adapt, and accelerate breakthroughs across biology, biotechnology, and energy science.
+<div class="tenant-meta"><span class="tenant-org">LBNL, ANL, ORNL, PNNL</span> <a class="tenant-website" href="https://opal-doe.org/" target="_blank">:material-web: opal-doe.org</a></div>
+<div class="tenant-description">The Orchestrated Platform for Autonomous Laboratories (OPAL) is a multi-laboratory DOE project to turn biological discovery into a self-driving process — combining AI, robotics, and automated experimentation to accelerate breakthroughs across biology, biotechnology, and energy science.</div>
 
 ??? example "Databases (0)"
     No databases registered yet.
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Phage Foundry
-**Organization:** LBNL &nbsp;|&nbsp; :material-web: [phagefoundry.org](https://phagefoundry.org/)
-
-Interdisciplinary capability building a high-throughput platform for rapid design and development of countermeasures to combat emerging pathogens.
+<div class="tenant-meta"><span class="tenant-org">LBNL</span> <a class="tenant-website" href="https://phagefoundry.org/" target="_blank">:material-web: phagefoundry.org</a></div>
+<div class="tenant-description">Interdisciplinary capability building a high-throughput platform for rapid design and development of countermeasures to combat emerging pathogens.</div>
 
 ??? example "Databases (7)"
     - `phagefoundry_acinetobacter_genome_browser`
@@ -260,63 +211,60 @@ Interdisciplinary capability building a high-throughput platform for rapid desig
     - `phagefoundry_paeruginosa_genome_browser`
     - `phagefoundry_pviridiflava_genome_browser`
     - `phagefoundry_strain_modelling`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Planet Microbe
-**Organization:** — &nbsp;|&nbsp; :material-web: [planetmicrobe.org](https://www.planetmicrobe.org/)
-
-Enabling the discovery and integration of oceanographicomics, environmental and physiochemical data layers.
+<div class="tenant-meta"><span class="tenant-org">—</span> <a class="tenant-website" href="https://www.planetmicrobe.org/" target="_blank">:material-web: planetmicrobe.org</a></div>
+<div class="tenant-description">Enabling the discovery and integration of oceanographicomics, environmental and physiochemical data layers.</div>
 
 ??? example "Databases (2)"
     - `planetmicrobe_planetmicrobe`
     - `planetmicrobe_planetmicrobe_raw`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Plant Microbe Interfaces
-**Organization:** PMI &nbsp;|&nbsp; :material-web: [pmiweb.ornl.gov](https://pmiweb.ornl.gov/)
-
-Focuses on revealing the genomic bases underpinning the selection of symbiotic plant-microbe partnerships, assessing how the physical and chemical environment structures the host plant's microbiome, and determining how microbial community composition and host genetics combine to respond to environmental challenges.
+<div class="tenant-meta"><span class="tenant-org">PMI</span> <a class="tenant-website" href="https://pmiweb.ornl.gov/" target="_blank">:material-web: pmiweb.ornl.gov</a></div>
+<div class="tenant-description">Focuses on revealing the genomic bases underpinning the selection of symbiotic plant-microbe partnerships, assessing how the physical and chemical environment structures the host plant's microbiome, and determining how microbial community composition and host genetics combine to respond to environmental challenges.</div>
 
 ??? example "Databases (0)"
     No databases registered yet.
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Soil Microbiome Science
-**Organization:** PNNL &nbsp;|&nbsp; :material-web: [pnnl.gov/projects/soil-microbiome](https://www.pnnl.gov/projects/soil-microbiome)
-
-Advancing our understanding of how soil microbial communities respond to—and affect—changing environmental conditions.
+<div class="tenant-meta"><span class="tenant-org">PNNL</span> <a class="tenant-website" href="https://www.pnnl.gov/projects/soil-microbiome" target="_blank">:material-web: pnnl.gov</a></div>
+<div class="tenant-description">Advancing our understanding of how soil microbial communities respond to—and affect—changing environmental conditions.</div>
 
 ??? example "Databases (0)"
     No databases registered yet.
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### PROTECT
-**Organization:** UC Berkeley
-
-Pro/Prebiotic Regulation for Optimized Treatment and Eradication of Clinical Threats (PROTECT) is pioneering microbiome engineering to design probiotic communities that prevent lung infections by pathogens.
+<div class="tenant-meta"><span class="tenant-org">UC Berkeley</span></div>
+<div class="tenant-description">Pro/Prebiotic Regulation for Optimized Treatment and Eradication of Clinical Threats (PROTECT) is pioneering microbiome engineering to design probiotic communities that prevent lung infections by pathogens.</div>
 
 ??? example "Databases (2)"
     - `protect_genomedepot`
     - `protect_integration`
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### Reference Data
-Collection of reference data that are available to all users and regularly updated by the KBase team.
+<div class="tenant-meta"><span class="tenant-org">KBase Team</span></div>
+<div class="tenant-description">Collection of reference data that are available to all users and regularly updated by the KBase team.</div>
 
 ??? example "Databases (0)"
     No databases registered yet.
+</div>
 
----
-
+<div class="tenant-card" markdown>
 ### United States Geological Survey
-**Organization:** USGS &nbsp;|&nbsp; :material-web: [usgs.gov](https://www.usgs.gov/)
-
-Sharing produced water and river geochemistry data for cross-tenant analysis.
+<div class="tenant-meta"><span class="tenant-org">USGS</span> <a class="tenant-website" href="https://www.usgs.gov/" target="_blank">:material-web: usgs.gov</a></div>
+<div class="tenant-description">Sharing produced water and river geochemistry data for cross-tenant analysis.</div>
 
 ??? example "Databases (1)"
     - `usgs_produced_waters`
+</div>
