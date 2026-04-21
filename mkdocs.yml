@@ -17,7 +17,7 @@ theme:
     - search.suggest
     - header.autohide
 
-  logo: assets/kberdl-logo.png
+  logo: assets/kbase_lakehouse.png
   favicon: assets/favicon.png
 
   font:
