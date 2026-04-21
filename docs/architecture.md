@@ -1,8 +1,8 @@
-# K-BERDL Architecture
+# KBase Lakehouse Architecture
 
 **A Multi-Tenant, AI-Native Data Lakehouse Platform for BER-Wide Data Integration**
 
-The KBase Data Lakehouse (K-BERDL) provides a unified technical foundation for data integration, large-scale analytics, and multi-program collaboration across the DOE Biological and Environmental Research (BER) ecosystem. Its architecture is designed to support diverse scientific workflows—from genomics and multi-omics to environmental observations and machine-learning–assisted discovery—by combining scalable storage, portable compute, fine-grained governance, and rich metadata capabilities.
+The KBase Lakehouse provides a unified technical foundation for data integration, large-scale analytics, and multi-program collaboration across the DOE Biological and Environmental Research (BER) ecosystem. Its architecture is designed to support diverse scientific workflows—from genomics and multi-omics to environmental observations and machine-learning–assisted discovery—by combining scalable storage, portable compute, fine-grained governance, and rich metadata capabilities.
 <img src="../assets/architecture_diagram.png" align="center" alt="KBase Data Lakehouse Architecture Diagram"">
 The following sections describe the core architectural principles and how they shape the platform’s functionality, extensibility, and scientific value.
 
