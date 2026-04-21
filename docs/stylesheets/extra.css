@@ -26,18 +26,11 @@
   height: 5rem !important;
 }
 
-/* Title — nudge down to visually align with KBase word in logo
-   (KBase letters sit at ~40.6% of SVG height, slightly above center) */
+/* Hide header title text */
 .md-header__title {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: normal;
-  margin-left: 0.75rem;
-  transform: translateY(0.2rem);
+  display: none;
 }
 
-.md-header__title,
 .md-tabs__link {
   color: #ffffff !important;
 }
