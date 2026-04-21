@@ -30,6 +30,7 @@ features = [
   "navigation.tracking",
   "content.code.copy",
   "content.tabs.link",
+  "content.tooltips",
   "search.highlight",
   "search.suggest",
   "header.autohide"
