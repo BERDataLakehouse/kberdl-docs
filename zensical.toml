@@ -23,7 +23,7 @@ nav = [
 name = "material"
 custom_dir = "overrides"
 favicon = "assets/favicon.png"
-logo = "assets/kbase_lakehouse.png"
+logo = "assets/kbase_lakehouse_logo.png"
 features = [
   "navigation.instant",
   "navigation.sections",

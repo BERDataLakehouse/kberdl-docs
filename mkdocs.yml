@@ -17,7 +17,7 @@ theme:
     - search.suggest
     - header.autohide
 
-  logo: assets/kbase_lakehouse.png
+  logo: assets/kbase_lakehouse_logo.png
   favicon: assets/favicon.png
 
   font:
