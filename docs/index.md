@@ -2,7 +2,7 @@
 
 **A unified, AI-native data platform for DOE Biological and Environmental Research**
 
-The **KBase BER Data Lakehouse (K-BERDL)** is a multi-tenant, FAIR-compliant data platform that brings together heterogeneous biological and environmental datasets from across the DOE BER ecosystem — including JGI, NMDC, EMSL, ESS-DIVE, and ARM — into a single, governed, AI-ready infrastructure.
+The **KBase Lakehouse** is a multi-tenant, FAIR-compliant data platform that brings together heterogeneous biological and environmental datasets from across the DOE BER ecosystem — including JGI, NMDC, EMSL, ESS-DIVE, and ARM — into a single, governed, AI-ready infrastructure.
 
 Built on open standards (Delta Lake, Apache Parquet, Apache Atlas), K-BERDL provides scalable storage, portable compute, and fine-grained data governance to support the full scientific lifecycle: from raw data ingestion to AI-assisted discovery and cross-program collaboration.
 
