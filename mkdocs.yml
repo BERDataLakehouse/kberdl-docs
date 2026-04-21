@@ -46,9 +46,9 @@ extra_css:
 nav:
   - About KBase Lakehouse: index.md
   - Architecture: architecture.md
+  - Onboarding Guide: onboarding.md
   - Tenant Model: tenant-model.md
   - Governance & Security: governance.md
-  - Onboarding Guide: onboarding.md
   - MinIO / Data Plane: data-plane-minio.md
   - Microbial Discovery Forge: microbial-discovery-forge.md
   - Ingestion Guide: data-ingestion-guide.md
